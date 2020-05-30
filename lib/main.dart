@@ -77,10 +77,11 @@ class _MyHomePageState extends State<MyHomePage> {
       title: txtitle,
       amount: txamount,
       date: DateTime.now(),
+      
     );
 
     setState(() {
-      
+
       _userTransactions.add(newTx);
     });
   }
