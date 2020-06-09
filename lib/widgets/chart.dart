@@ -60,6 +60,6 @@ class Chart extends StatelessWidget {
           ),
         ),
       );
-    ;
+    
   }
 }
